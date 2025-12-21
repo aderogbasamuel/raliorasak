@@ -39,7 +39,7 @@ export default function Header() {
                             <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-500 text-[18px] sm:text-[24px] px-6 py-3 text-black rounded-full capitalize font-matter">{item}</p>
                         ))}
                     </div>
-                    <div className="rounded-[30px] p-10 sm:p-16 mx-4"
+                    <div className="rounded-[30px] p-10 px-6 sm:p-16 mx-4"
 
                         style={{
                             background:
@@ -47,6 +47,10 @@ export default function Header() {
                         }}
                     >
                         <p className="text-xl text-center">As a strategic Senior Product Designer, my work is a fusion of creative leadership and hands-on execution. I apply a mix of human-centered, research/data-driven, and agile techniques to design experiences that are not only delightful for users but also drive significant business impact. With a background as the Head of Product Design at Motoka app and a Senior Product Designer at Repeatra, I specialize in building and scaling products that serve a global audience.</p>
+                        <div className="flex flex-col sm:flex-row justify-center gap-3 mt-10 sm:mt-24 font-matter">
+                            <button className="border-2 border-white px-3 py-2 rounded-[10px] w-[250px] font-[600]">Download my Resume</button>
+                            <button className="px-3 py-2 rounded-[10px] w-[250px] shadow-dual text-[#5531C1] underline font-[600]">Send me a Mail</button>
+                        </div>
                     </div>
                 </div>
 

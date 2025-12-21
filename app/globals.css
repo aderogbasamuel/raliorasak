@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.shadow-dual {
+  box-shadow:
+    18px 21px 67.1px 0px #00000040,
+    -18px -16px 60px 0px #ffffff40,
+    2px 3px 1px 0px #ffffff inset;
+      background: linear-gradient(
+    149.19deg,
+    #ffffff 30.08%,
+    #a387f6 139.67%
+  );
+}
+
+
+
