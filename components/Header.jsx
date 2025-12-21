@@ -36,7 +36,7 @@ export default function Header() {
 
                     <div className="flex gap-3 flex-wrap justify-center">
                         {["critical thinking", "problem solving", "team work", "communication"].map((item, i) => (
-                            <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-500 text-[18px] sm:text-[24px] px-6 py-3 text-black rounded-full capitalize font-matter">{item}</p>
+                            <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-[500] text-[18px] sm:text-[24px] px-6 py-2 sm:py-3 text-black rounded-full capitalize font-matter">{item}</p>
                         ))}
                     </div>
                     <div className="rounded-[30px] p-10 px-6 sm:p-16 mx-4"
