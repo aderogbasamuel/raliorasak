@@ -6,7 +6,7 @@ export default function Header() {
             className="h-screen bg-center flex items-center flex-col py-16 px-4 sm:px-10"
             style={{ backgroundImage: "url('/Frame 1321317766.svg')" }}
         >
-            <h1 className="text-3xl sm:text-5xl max-w-3xl font-bold bg-gradient-to-r from-[#BF30CC] to-[#5531C1] bg-clip-text text-transparent text-center font-matter">Solving business problems using Human Centred, Research/Data driven & Agile techniques</h1>
+            <h1 className="text-4xl sm:text-5xl max-w-3xl font-bold bg-gradient-to-r from-[#BF30CC] to-[#5531C1] bg-clip-text text-transparent text-center font-matter">Solving business problems using Human Centred, Research/Data driven & Agile techniques</h1>
             <div className=" flex relative flex-col items-center justify-center w-full max-w-8xl border-red-900">
                 <div className="absolute z-10 flex flex-col gap-3 w-full"> 
                     <div className="flex justify-between ">
