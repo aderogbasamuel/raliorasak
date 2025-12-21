@@ -34,9 +34,9 @@ export default function Header() {
   />
   <div className="relative z-10 max-w-4xl flex flex-col items-center gap-10">
                 
-                <div className="flex gap-3 flex-wrap ">
+                <div className="flex gap-3 flex-wrap justify-center">
                     {["critical thinking", "problem solving", "team work", "communication"].map((item,i)=>(
-                        <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-500 text-[24px] px-6 py-3 text-black rounded-full capitalize font-matter">{item}</p>
+                        <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-500 text-[18px] sm:text-[24px] px-6 py-3 text-black rounded-full capitalize font-matter">{item}</p>
                     ))}
                 </div>
                 <div className="rounded-[30px] p-16"
