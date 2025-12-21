@@ -33,7 +33,7 @@ export default function Header() {
     className="object-cover"
   />
   <div className="relative z-10 max-w-4xl flex flex-col items-center gap-10">
-                {/* <h1 className="text-6xl text-black">hello world</h1> */}
+                
                 <div className="flex gap-3">
                     {["critical thinking", "problem solving", "team work", "communication"].map((item,i)=>(
                         <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-500 text-[24px] px-6 py-3 text-black rounded-full capitalize font-matter">{item}</p>
@@ -46,7 +46,7 @@ export default function Header() {
                       "linear-gradient(132.19deg, #BF30CC -63.53%, #5531C1 57.41%)",
                   }}
                   >
-                        <p className="text-xl">"As a strategic Senior Product Designer, my work is a fusion of creative leadership and hands-on execution. I apply a mix of human-centered, research/data-driven, and agile techniques to design experiences that are not only delightful for users but also drive significant business impact. With a background as the Head of Product Design at Motoka app and a Senior Product Designer at Repeatra, I specialize in building and scaling products that serve a global audience."</p>
+                        <p className="text-xl">As a strategic Senior Product Designer, my work is a fusion of creative leadership and hands-on execution. I apply a mix of human-centered, research/data-driven, and agile techniques to design experiences that are not only delightful for users but also drive significant business impact. With a background as the Head of Product Design at Motoka app and a Senior Product Designer at Repeatra, I specialize in building and scaling products that serve a global audience.</p>
                 </div>
                 </div>
             
