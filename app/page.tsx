@@ -1,8 +1,12 @@
 import Header from '../components/Header'
+import Experience from '../components/Experience'
+import Footer from '../components/Footer'
 export default function Home() {
   return (
-    <main className="bg-white">
+    <main className="bg-white font-matter">
       <Header/>
+      <Experience/>
+      <Footer/>
     </main>
   );
 }
