@@ -19,7 +19,7 @@ export default function Header() {
                     </div>
                 </div>
                 <div>
-                    <Image src={'hero.svg'} width={440} height={770} className="w-full max-w-[400px]" alt='hero image'/>
+                    <Image src={'hero.svg'} width={400} height={700} className="w-full max-w-[400px]" alt='hero image'/>
                 </div>
             </div>
         </div>
