@@ -39,7 +39,7 @@ export default function Header() {
                             <p key={i} className="bg-[#F0EEF3] border border-[#A598D0] font-500 text-[18px] sm:text-[24px] px-6 py-3 text-black rounded-full capitalize font-matter">{item}</p>
                         ))}
                     </div>
-                    <div className="rounded-[30px] p-10 px-6 sm:p-16 mx-4"
+                    <div className="rounded-[30px] p-10 px-4 sm:p-16 mx-4"
 
                         style={{
                             background:
