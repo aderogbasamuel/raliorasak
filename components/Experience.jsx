@@ -1,6 +1,6 @@
 export default function Experience(){
     return(
-        <div className="w-full border py-[150px] bg-[#F9F9F9] flex flex-col items-center">
+        <div className="w-full border py-[150px] bg-[#F9F9F9] flex flex-col items-center px-4">
             <h1 className="text-center text-4xl sm:text-6xl font-bold bg-gradient-to-r to-[#BF30CC] from-[#5531C1] bg-clip-text text-transparent text-center font-matter">
                 My time behind <br/> various desks
             </h1>
