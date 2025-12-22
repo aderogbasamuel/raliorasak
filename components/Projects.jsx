@@ -146,7 +146,7 @@ export default function Projects() {
                                 <p className="bg-white rounded-full py-1 px-5 text-sm text-[#15154F70]">In Testing</p>
                             </div>
                             <p className="text-[#15154F] pt-12">
-                            Chitlink’s design makes financial collaboration more accessible and less stressful. By providing a secure and transparent system, Chitlink builds trust among users and empowers them to fund their projects or achieve their saving goals collectively. The clear visual hierarchy and user-friendly interface encourage regular engagement and help users stay on track with their commitments.
+                            Chitlink design makes financial collaboration more accessible and less stressful. By providing a secure and transparent system, Chitlink builds trust among users and empowers them to fund their projects or achieve their saving goals collectively. The clear visual hierarchy and user-friendly interface encourage regular engagement and help users stay on track with their commitments.
                                 </p>
                             <div className="flex gap-3 pt-5">
                                 <button className="bg-[#BD882D] text-white text-sm sm:text-lg rounded-full p-1 px-6">View Case Study</button>
